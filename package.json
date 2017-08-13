@@ -1,0 +1,20 @@
+{
+  "name": "tiny-pseudorandom",
+  "version": "1.0.0",
+  "description": "Simple 1kb Lehmer / Park-Miller PRNG",
+  "main": "prng.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "patrick.triest@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-es2017": "6.24.1",
+    "babili-webpack-plugin": "0.1.2",
+    "webpack": "3.4.1"
+  }
+}
