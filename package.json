@@ -1,10 +1,11 @@
 {
-  "name": "tiny-pseudorandom",
-  "version": "1.0.0",
-  "description": "Simple 1kb Lehmer / Park-Miller PRNG",
+  "name": "tiny-prng",
+  "version": "0.0.1",
+  "description": "Simple 1kb Lehmer / Park-Miller pseudorandom number generator",
   "main": "prng.js",
   "scripts": {
     "build": "webpack",
+    "deploy": "webpack && bash deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "patrick.triest@gmail.com",
